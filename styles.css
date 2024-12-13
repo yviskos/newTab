@@ -1,0 +1,41 @@
+body{
+    background-color: #1e1e2e;
+}
+p {
+    color: white;
+}
+h1 {
+    color: #ba81ff;
+}
+#main {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 3px #ba81ff double;
+    width: 75vw;
+    height: 75vh;
+    padding: 1rem;
+    font-family: "Cascadia Mono", monospace, "Arial";
+    border-radius: 15px;
+}
+
+#img {
+    float: left;
+    max-height: 60vh;
+    max-width: 50%;
+    margin: 1rem;
+    border-radius: 15px;
+}
+a {
+    color: white;
+    text-decoration: none;
+    font-size: large;
+}
+a:hover {
+    text-shadow: white 1px 0 10px;
+}
+hr {
+    border: 3px #ba81ff double;  
+}
